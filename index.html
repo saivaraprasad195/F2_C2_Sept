@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>F2_C2_Sept</title>
+</head>
+<body>
+    <header>
+        <h1>Student Portal</h1>
+    </header>
+    <main>
+        <div class="search-container">
+            <input type="text" name="SearchBar" id="search" placeholder="Search" class="search-bar">
+            <button id="search-btn" class="search-button">Search</button>
+        </div>
+        <div class="button-container">
+            <button class="btn" id="sort-az">Sort A &rarr; Z</button>
+            <button class="btn" id="sort-za">Sort Z &rarr; A</button>
+            <button class="btn" id="sort-marks">Sort by Marks</button>
+            <button class="btn" id="sort-passsing">Sort by Passing</button>
+            <button class="btn" id="sort-class">Sort by Class</button>
+            <button class="btn" id="sort-gender">Sort by Gender</button>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Passing</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody id="students-data">
+                <!-- Inserted using JS -->
+            </tbody>
+        </table>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
